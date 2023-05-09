@@ -1,0 +1,29 @@
+.cont {
+    display: block;
+}
+
+img {
+    width: 200px;
+    border: 5px solid black;
+    margin: 10px;
+}
+
+img:hover {
+    cursor: pointer;
+    border: 5px solid rgb(104, 103, 103);
+    border-radius: 15px;
+}
+
+#reset {
+    width: 650px;
+    height: 40px;
+    color: white;
+    background-color: rgb(255, 60, 0);
+    border: none;
+    border-radius: 5px;
+}
+
+#reset:hover {
+    cursor: pointer;
+    border: 3px solid black;
+}
